@@ -35,6 +35,6 @@ public class doublyLinkedList {
             current=current.next;
             
         }
-        
+        current
     }
 }
