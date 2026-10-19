@@ -40,7 +40,7 @@ public class singlyLinkedList {
         Node current = Head;
 
         while (current != null) {
-            System.out.println(current.data + " -> ");
+            System.out.print(current.data + " -> ");
             current = current.next;
         }
         System.out.println("null");
@@ -50,9 +50,9 @@ public class singlyLinkedList {
         Node current = Head;
 
         while (current != null) {
-            System.out.println("Data: " + current.data);
-            System.out.println(" | Current pointers: " + current);
-            System.out.println(" | Next: ");
+            System.out.print("Data: " + current.data);
+            System.out.print(" | Current pointers: " + current);
+            System.out.print(" | Next: ");
 
             if (current.next != null) {
                 System.out.println(current.next);
