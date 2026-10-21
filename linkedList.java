@@ -15,9 +15,6 @@ public class linkedList {
         num.add(12);
         num.add(12);
         num.add(4);
-        
-        num.display();
-        
-    }
+          }
     
 }
