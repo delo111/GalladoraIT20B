@@ -20,7 +20,7 @@ public class PracticeArray {
     name.add(2,"luffy");
     
         System.out.println(name.get(2));
-        name.set
+ 
         for (int i = 0; i < name.size(); i++) {
             System.out.print(name.get(i)+ " ");
             
